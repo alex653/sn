@@ -1,1 +1,21 @@
-<p>hello </p>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+</head>
+<body>
+
+<!-- форма для отправки сообщений -->
+<form name="publish">
+  <input id="ticker" type="text" name="message"/>
+  <input type="submit" value="Отправить"/>
+</form>
+<button onclick="stopquotes()">Остановить</button>
+
+<!-- здесь будут появляться входящие сообщения -->
+<div id="subscribe"></div>
+
+<script src="browser.js"></script>
+
+</body>
+</html>
